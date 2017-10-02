@@ -1,3 +1,5 @@
+package fake
+
 import org.hamcrest.Matchers.hasSize
 import org.junit.Assert.assertThat
 import org.junit.Test

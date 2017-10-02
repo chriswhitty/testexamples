@@ -1,3 +1,5 @@
+package stub
+
 import org.hamcrest.Matchers.equalTo
 import org.junit.Assert.assertThat
 import org.junit.Test

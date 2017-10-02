@@ -1,3 +1,5 @@
+package matchers
+
 import org.hamcrest.Description
 import org.hamcrest.Matcher
 import org.hamcrest.Matchers
@@ -24,7 +26,7 @@ class MatchersTest {
         """)
 
         assertThat(document, Matchers.hasXPath("//root/child"))
-        assertThat(document, hasDocType("html"))
+        assertThat(document, hasDocType("xml"))
     }
 
 }
